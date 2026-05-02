@@ -6,7 +6,7 @@ fetch("./Components/Header.html")
   initHeader(); // 🔥 important
 });
 
-fetch("./Components/Footer.html")
+fetch("./Components/footer.html")
 .then(res => res.text())
 .then(data => {
   document.getElementById("footer").innerHTML = data;
